@@ -16,7 +16,6 @@
 		4C431CAF1B79C02700463BEF /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C431CAE1B79C02700463BEF /* GalleryViewController.swift */; };
 		4C431CB11B79C90A00463BEF /* CaptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C431CB01B79C90A00463BEF /* CaptionsViewController.swift */; };
 		4C431CB31B7A562600463BEF /* GalleryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C431CB21B7A562600463BEF /* GalleryViewCell.swift */; };
-		4C431CCB1B7A860600463BEF /* GalleryViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C431CCA1B7A860600463BEF /* GalleryViewLayout.swift */; };
 		4C431CCD1B7A89A600463BEF /* TimelineSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C431CCC1B7A89A600463BEF /* TimelineSectionHeaderView.xib */; };
 		4C431CCF1B7A8AAC00463BEF /* TimelineSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C431CCE1B7A8AAC00463BEF /* TimelineSectionHeaderView.swift */; };
 		4C431CD31B7AA41800463BEF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C431CD21B7AA41800463BEF /* ProfileViewController.swift */; };
@@ -63,7 +62,6 @@
 		4C431CAE1B79C02700463BEF /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 		4C431CB01B79C90A00463BEF /* CaptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptionsViewController.swift; sourceTree = "<group>"; };
 		4C431CB21B7A562600463BEF /* GalleryViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewCell.swift; sourceTree = "<group>"; };
-		4C431CCA1B7A860600463BEF /* GalleryViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewLayout.swift; sourceTree = "<group>"; };
 		4C431CCC1B7A89A600463BEF /* TimelineSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimelineSectionHeaderView.xib; sourceTree = "<group>"; };
 		4C431CCE1B7A8AAC00463BEF /* TimelineSectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineSectionHeaderView.swift; sourceTree = "<group>"; };
 		4C431CD21B7AA41800463BEF /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -129,12 +127,10 @@
 			isa = PBXGroup;
 			children = (
 				4C431CAC1B79B50100463BEF /* ParseService.swift */,
-				4C431C9D1B7981A300463BEF /* UIImage+Resize+Crop.swift */,
-				4CD0DA141B7E53BB00644DDA /* CGSize+Scale.swift */,
 				4C6A7CAE1B792402008E7E05 /* FilterService.swift */,
 				4CACE3391B7D300900425193 /* Filter */,
 			);
-			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		4C431CA01B7981C200463BEF /* Controller */ = {
@@ -148,7 +144,7 @@
 				4C431CAE1B79C02700463BEF /* GalleryViewController.swift */,
 				81BA814C1A49DA1800E65899 /* ImageViewController.swift */,
 			);
-			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		4C431CA71B7990A000463BEF /* View */ = {
@@ -159,14 +155,13 @@
 				4C431CDA1B7ACC6200463BEF /* CameraOverlayView.xib */,
 				4C431CCC1B7A89A600463BEF /* TimelineSectionHeaderView.xib */,
 				4C431CCE1B7A8AAC00463BEF /* TimelineSectionHeaderView.swift */,
-				4C431CCA1B7A860600463BEF /* GalleryViewLayout.swift */,
 				4C431CB21B7A562600463BEF /* GalleryViewCell.swift */,
 				4C431CAA1B79B1C600463BEF /* TimelinePostCell.swift */,
 				4C431CA51B79909900463BEF /* FilterThumbnailCell.swift */,
 				4CFBE61C1B8045A300D9709E /* FilterThumbImageView.swift */,
 				4CFBE61E1B819A9900D9709E /* PhotoAlbumViewCell.swift */,
 			);
-			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		4CACE3391B7D300900425193 /* Filter */ = {
@@ -179,7 +174,7 @@
 				4CACE3351B7D2B2000425193 /* HueFilter.swift */,
 				4CACE3371B7D2F8E00425193 /* VibranceFilter.swift */,
 			);
-			name = Filter;
+			path = Filter;
 			sourceTree = "<group>";
 		};
 		81BA813C1A49DA1800E65899 = {
@@ -210,6 +205,8 @@
 				4C431CA01B7981C200463BEF /* Controller */,
 				4C431C9F1B7981AD00463BEF /* Model */,
 				81BA81511A49DA1800E65899 /* Images.xcassets */,
+				81BA81491A49DA1800E65899 /* Info.plist */,
+				81BA81821A49E27F00E65899 /* ThisPic-Bridging-Header.h */,
 				81BA81481A49DA1800E65899 /* Supporting Files */,
 			);
 			path = ThisPic;
@@ -218,10 +215,10 @@
 		81BA81481A49DA1800E65899 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				81BA81491A49DA1800E65899 /* Info.plist */,
-				81BA81821A49E27F00E65899 /* ThisPic-Bridging-Header.h */,
+				4C431C9D1B7981A300463BEF /* UIImage+Resize+Crop.swift */,
+				4CD0DA141B7E53BB00644DDA /* CGSize+Scale.swift */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		81BA816A1A49DB5600E65899 /* Frameworks */ = {
@@ -359,7 +356,6 @@
 				4C431CA91B79B13500463BEF /* TimelineViewController.swift in Sources */,
 				4C431CD91B7ACB8A00463BEF /* CameraOverlayView.swift in Sources */,
 				4CFBE61D1B8045A300D9709E /* FilterThumbImageView.swift in Sources */,
-				4C431CCB1B7A860600463BEF /* GalleryViewLayout.swift in Sources */,
 				81BA814D1A49DA1800E65899 /* ImageViewController.swift in Sources */,
 				4C431CAF1B79C02700463BEF /* GalleryViewController.swift in Sources */,
 				4C431CDD1B7AFEB100463BEF /* UserBrowseViewCell.swift in Sources */,
