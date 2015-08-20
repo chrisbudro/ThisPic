@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "81BA81441A49DA1800E65899"
-               BuildableName = "AllPic.app"
+               BuildableName = "ThisPic.app"
                BlueprintName = "ThisPic"
                ReferencedContainer = "container:ThisPic.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "81BA81441A49DA1800E65899"
-            BuildableName = "AllPic.app"
+            BuildableName = "ThisPic.app"
             BlueprintName = "ThisPic"
             ReferencedContainer = "container:ThisPic.xcodeproj">
          </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "81BA81441A49DA1800E65899"
-            BuildableName = "AllPic.app"
+            BuildableName = "ThisPic.app"
             BlueprintName = "ThisPic"
             ReferencedContainer = "container:ThisPic.xcodeproj">
          </BuildableReference>
@@ -72,7 +72,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "81BA81441A49DA1800E65899"
-            BuildableName = "AllPic.app"
+            BuildableName = "ThisPic.app"
             BlueprintName = "ThisPic"
             ReferencedContainer = "container:ThisPic.xcodeproj">
          </BuildableReference>
