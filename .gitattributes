@@ -1,6 +1,6 @@
-Bolts.framework linguist-vendored
-Parse.framework linguist-vendored
-ParseCrashReporting.framework linguist-vendored
-ParseFacebookUtils.framework linguist-vendored
-ParseFacebookUtilsV4.framework linguist-vendored
-ParseUI.framework linguist-vendored
+Bolts.framework/* linguist-vendored
+Parse.framework/* linguist-vendored
+ParseCrashReporting.framework/* linguist-vendored
+ParseFacebookUtils.framework/* linguist-vendored
+ParseFacebookUtilsV4.framework/* linguist-vendored
+ParseUI.framework/* linguist-vendored
